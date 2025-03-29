@@ -1,0 +1,49 @@
+#content {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: gainsboro;
+}
+
+@media (max-width: 1300px) {
+  #content {
+    display: block;
+  }
+}
+
+.box {
+  padding: 20px;
+  width: 400px;
+  height: 250px;
+  border: 1px solid grey;
+  margin: 50px 0;
+  box-shadow: 0 0 2px 1px grey;
+  background-color: white;
+}
+
+.plan {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0 0 10px 0;
+}
+
+.price {
+  font-size: 35px;
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+.button {
+  color: white;
+  background-color: cornflowerblue;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 10px 0px;
+  font-size: 13px;
+}
+
+.description {
+  padding-left: 20px;
+  font-size: 13px;
+}
