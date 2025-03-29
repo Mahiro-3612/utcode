@@ -1,0 +1,9 @@
+#chatArea {
+  display: flex;
+}
+
+#left,
+#right {
+  flex: 1;
+  text-align: center;
+}
